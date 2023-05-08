@@ -61,7 +61,7 @@ function finJuegoMensaje(mensaje, filaInicio, columnaInicio, filaFin, columnaFin
   // Agregar las celdas ganadoras a un array
   for (let i = filaInicio; i <= filaFin; i++) {
     for (let j = columnaInicio; j <= columnaFin; j++) {
-      celdasGanadoras.push(celdas[i * 3 + j]);
+      celdasGanadoras.push(celdas[i * 3 + j - 1]);
     }
   }
   
